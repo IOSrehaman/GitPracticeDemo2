@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     func myDetails(){
         myName.frame = CGRect(x: 50, y: 150, width: 100, height: 30)
         myName.text = "Rehaman"
-        myName.backgroundColor = .gray
+        myName.backgroundColor = .green
         view.addSubview(myName)
     }
 
